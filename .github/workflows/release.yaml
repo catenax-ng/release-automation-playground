@@ -19,5 +19,4 @@ jobs:
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
-          release-type: go
-          package-name: golang-release-example
+          release-type: simple
