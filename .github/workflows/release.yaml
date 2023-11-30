@@ -9,9 +9,6 @@ permissions:
 
 name: release-please
 
-env:
-  APP_NAME: golang-release-example
-
 jobs:
   release-golang-app:
     runs-on: ubuntu-latest
@@ -20,3 +17,12 @@ jobs:
         id: release
         with:
           release-type: simple
+
+      - uses: docker://pandoc/latex:2.9
+        if: ${{ steps.release.outputs.release_created }}
+        with:
+          args: --output=docs/Documentation.pdf docs/README.md
+
+      - name: Upload Documentation to relase
+        if: ${{ steps.release.outputs.release_created }}
+        run: gh release upload ${{ steps.release.outputs.tag_name }} docs/Documentation.pdf
