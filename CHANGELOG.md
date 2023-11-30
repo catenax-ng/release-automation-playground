@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/catenax-ng/release-automation-playground/compare/v1.1.1...v1.1.2) (2023-11-30)
+
+
+### Bug Fixes
+
+* set GITHUB_TOKEN to upload artifacts to a release ([7e8941c](https://github.com/catenax-ng/release-automation-playground/commit/7e8941c3e19cbbdea8921c6b6c3ca0d0af1a685f))
+
 ## [1.1.1](https://github.com/catenax-ng/release-automation-playground/compare/v1.1.0...v1.1.1) (2023-11-30)
 
 
