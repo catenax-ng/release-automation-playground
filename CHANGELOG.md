@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/catenax-ng/release-automation-playground/compare/v1.1.0...v1.1.1) (2023-11-30)
+
+
+### Bug Fixes
+
+* **build:** checkout repo before building docs ([b242393](https://github.com/catenax-ng/release-automation-playground/commit/b242393250febeb531899219252b8dc39c1e70b1))
+
 ## [1.1.0](https://github.com/catenax-ng/release-automation-playground/compare/v1.0.0...v1.1.0) (2023-11-30)
 
 
