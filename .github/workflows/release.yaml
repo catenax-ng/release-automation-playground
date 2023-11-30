@@ -13,15 +13,21 @@ jobs:
   release-golang-app:
     runs-on: ubuntu-latest
     steps:
+
+      # Maintain release PR + create GitHub release if merged
       - uses: google-github-actions/release-please-action@v3
         id: release
         with:
           release-type: simple
 
+      # React to GitHub release created
+      - uses: actions/checkout@v4
+        if: ${{ steps.release.outputs.release_created }}
+
       - uses: docker://pandoc/latex:2.9
         if: ${{ steps.release.outputs.release_created }}
         with:
-          args: --output=docs/Documentation.pdf docs/README.md
+          args: --output=./docs/Documentation.pdf ./docs/README.md
 
       - name: Upload Documentation to relase
         if: ${{ steps.release.outputs.release_created }}
