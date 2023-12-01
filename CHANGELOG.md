@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.2](https://github.com/catenax-ng/release-automation-playground/compare/v1.2.1...v1.2.2) (2023-12-01)
+
+
+### Bug Fixes
+
+* **build:** grant write permissin for pr lint comment ([70c21f4](https://github.com/catenax-ng/release-automation-playground/commit/70c21f43d5c5a2439a0bac24f32982c9f80ad1a7))
+
 ## [1.2.1](https://github.com/catenax-ng/release-automation-playground/compare/v1.2.0...v1.2.1) (2023-12-01)
 
 
