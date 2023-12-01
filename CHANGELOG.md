@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/catenax-ng/release-automation-playground/compare/v1.1.2...v1.2.0) (2023-12-01)
+
+
+### Features
+
+* **docs:** add apache notice to docs ([#11](https://github.com/catenax-ng/release-automation-playground/issues/11)) ([7a197b8](https://github.com/catenax-ng/release-automation-playground/commit/7a197b88959cc5e03030b2a93eac49842aa1f1ec))
+
+
+### Bug Fixes
+
+* **build:** grant PR read permissions to lint workflow ([a8f988f](https://github.com/catenax-ng/release-automation-playground/commit/a8f988fafacbc8bb75c0bb46b418a40a4619a4b2))
+
 ## [1.1.2](https://github.com/catenax-ng/release-automation-playground/compare/v1.1.1...v1.1.2) (2023-11-30)
 
 
