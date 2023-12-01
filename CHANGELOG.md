@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.1](https://github.com/catenax-ng/release-automation-playground/compare/v1.2.0...v1.2.1) (2023-12-01)
+
+
+### Bug Fixes
+
+* add missing files for docs licence notice ([#13](https://github.com/catenax-ng/release-automation-playground/issues/13)) ([924a053](https://github.com/catenax-ng/release-automation-playground/commit/924a05352ac7a1fbc339c5d0bbd58e02a5d865e6))
+
 ## [1.2.0](https://github.com/catenax-ng/release-automation-playground/compare/v1.1.2...v1.2.0) (2023-12-01)
 
 
