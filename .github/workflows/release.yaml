@@ -27,10 +27,15 @@ jobs:
       - uses: docker://pandoc/latex:2.9
         if: ${{ steps.release.outputs.release_created }}
         with:
-          args: --output=./docs/Documentation.pdf ./docs/README.md ./docs/apache-notice.md ./docs/product_openapi.yaml
+          args: --output=./docs/Documentation.pdf ./docs/README.md ./docs/apache-notice.md
 
-      - name: Upload Documentation to relase
+      - name: Upload Documentation to release
         if: ${{ steps.release.outputs.release_created }}
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: gh release upload ${{ steps.release.outputs.tag_name }} docs/Documentation.pdf
+      - name: Upload OpenAPI spec to release
+        if: ${{ steps.release.outputs.release_created }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh release upload ${{ steps.release.outputs.tag_name }} docs/product_openapi.yaml
