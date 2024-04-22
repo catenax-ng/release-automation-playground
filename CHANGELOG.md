@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/catenax-ng/release-automation-playground/compare/v1.2.2...v1.3.0) (2024-04-22)
+
+
+### Features
+
+* customer facing squash example ([#20](https://github.com/catenax-ng/release-automation-playground/issues/20)) ([fa9f0aa](https://github.com/catenax-ng/release-automation-playground/commit/fa9f0aaade88f1d77441a2cf8f2f7a1436f88b78))
+
 ## [1.2.2](https://github.com/catenax-ng/release-automation-playground/compare/v1.2.1...v1.2.2) (2023-12-01)
 
 
