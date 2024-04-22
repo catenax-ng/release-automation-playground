@@ -27,7 +27,7 @@ jobs:
       - uses: docker://pandoc/latex:2.9
         if: ${{ steps.release.outputs.release_created }}
         with:
-          args: --output=./docs/Documentation.pdf ./docs/README.md ./docs/apache-notice.md
+          args: --output=./docs/Documentation.pdf ./docs/README.md ./docs/apache-notice.md ./docs/product_openapi.yaml
 
       - name: Upload Documentation to relase
         if: ${{ steps.release.outputs.release_created }}
