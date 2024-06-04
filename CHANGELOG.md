@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/catenax-ng/release-automation-playground/compare/v1.3.0...v1.3.1) (2024-04-22)
+
+
+### Bug Fixes
+
+* workflow to add openapi spec to release ([9fcbd3c](https://github.com/catenax-ng/release-automation-playground/commit/9fcbd3ca3b8704028ac37cb3f76fb53780bee91e))
+
 ## [1.3.0](https://github.com/catenax-ng/release-automation-playground/compare/v1.2.2...v1.3.0) (2024-04-22)
 
 
