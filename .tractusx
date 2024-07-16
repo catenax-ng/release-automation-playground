@@ -27,6 +27,6 @@ skipReleaseChecks:
   alignedBaseImage:
     - "local/vault/Dockerfile"
 openApiSpecs:
- - "https://raw.githubusercontent.com/catenax-ng/release-automation-playground/main/openAPI_kit1.yaml"
- - "https://raw.githubusercontent.com/catenax-ng/release-automation-playground/main/openAPI_kit2.yaml"
- - "https://raw.githubusercontent.com/catenax-ng/release-automation-playground/main/openAPI_kit3.yaml"
+ - "https://raw.githubusercontent.com/catenax-ng/release-automation-playground/main/docs/api/openAPI_kit1.yaml"
+ - "https://raw.githubusercontent.com/catenax-ng/release-automation-playground/main/docs/api/openAPI_kit2.yaml"
+ - "https://raw.githubusercontent.com/catenax-ng/release-automation-playground/main/docs/api/openAPI_kit3.yaml"
