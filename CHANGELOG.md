@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.3.2](https://github.com/catenax-ng/release-automation-playground/compare/v1.3.1...v1.3.2) (2024-07-17)
+
+
+### Bug Fixes
+
+* .tractusx formatting ([c2cc0b6](https://github.com/catenax-ng/release-automation-playground/commit/c2cc0b62c5f509e0fefdfacb0474da88610ce9a7))
+* api urls ([37733c7](https://github.com/catenax-ng/release-automation-playground/commit/37733c7655037515b8086a77ff498df350db616f))
+
 ## [1.3.1](https://github.com/catenax-ng/release-automation-playground/compare/v1.3.0...v1.3.1) (2024-04-22)
 
 
